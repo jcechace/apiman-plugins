@@ -80,9 +80,11 @@
     <version.org.mockito>1.9.5</version.org.mockito>
     <version.junit>4.11</version.junit>
 
+    <!--
     <version.org.keycloak>1.2.0.CR1</version.org.keycloak>
     <version.org.bouncycastle>1.51</version.org.bouncycastle>
     <version.net.iharder>2.3.8</version.net.iharder>
+    -->
     <version.org.json>20140107</version.org.json>
 
     <!-- Distribution URLs -->
@@ -176,6 +178,7 @@
         <version>${version.org.mockito}</version>
       </dependency>
       <!-- others -->
+      <!--
       <dependency>
         <groupId>org.keycloak</groupId>
         <artifactId>keycloak-core</artifactId>
@@ -191,6 +194,7 @@
         <artifactId>base64</artifactId>
         <version>${version.net.iharder}</version>
       </dependency>
+      -->
       <dependency>
         <groupId>org.json</groupId>
         <artifactId>json</artifactId>
@@ -203,7 +207,7 @@
     <module>cors-policy</module>
     <module>http-security-policy</module>
     <module>jsonp-policy</module>
-    <module>keycloak-oauth-policy</module>
+    <!--<module>keycloak-oauth-policy</module>-->
     <module>simple-header-policy</module>
     <module>transformation-policy</module>
   </modules>
